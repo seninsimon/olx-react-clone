@@ -1,0 +1,51 @@
+.card-container
+{
+    width: 288px;
+    height: 266px;
+    border: 1px solid rgba(197, 197, 197, 0.5);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column  ;
+    align-items: center;
+    padding-top: 8px;
+    cursor: pointer;
+    
+  
+}
+
+.card-img
+{
+    width: 270px;
+    height: 160px;
+}
+
+.image-container img
+{
+    max-width: 264px;
+   max-height: 157px;
+}
+
+.info{
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.price
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.product-location
+{
+    padding-top: 10px;
+}
+
+.product-location,.information
+{
+    color: rgb(148, 145, 145);
+    font-size: 14px;
+}

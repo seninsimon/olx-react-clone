@@ -1,0 +1,68 @@
+.navbar{
+    height: 72px;
+    width: 100%;
+    background-color: rgb(239, 241, 243);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sellimage{
+    cursor: pointer;
+}
+
+.loc{
+    height: 50px;
+    border: 2px solid black;
+    width: 272px;
+    border-radius: 5px;
+}
+
+
+.searchbar
+{
+    position: relative;
+}
+
+.searchb
+{
+    height: 50px;
+    border: 2px solid black;
+    width: 1200px;
+    border-radius: 5px;
+}
+
+.search-btn
+{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    right: 0px;
+    background-color: rgb(0, 47, 52);
+    padding: 10px;
+}
+
+.lang{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.log{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid black;
+}
+
+.sell button
+{
+    border: none;
+}
+

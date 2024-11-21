@@ -1,0 +1,106 @@
+
+.sell-body
+{
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.sell-page
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  border: 1px solid black;
+  width: 500px;
+  padding-top: 100px;
+  border-radius: 5px;
+
+}
+
+.flex
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sell-page h1
+{
+  padding-bottom: 30px;
+}
+
+.sell-page label , h1
+{
+font-family: sans-serif;
+
+}
+
+.sell-page label
+{
+  padding-top: 10px;
+}
+
+.sell-page .input-class
+{
+  width: 432px;
+  height: 48px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+
+
+
+.custom-file-input  {
+  display: inline-block;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+
+.upload-class
+{
+  width: 100px;
+  height: 50px;
+  font-family: sans-serif;
+  background-color: white;
+  font-weight: bold;
+  font-size: 17px;
+  border: 1px solid black;
+  border-radius: 5px;
+   margin-top: 15px;
+   cursor: pointer;
+
+}
+
+/* Hide arrows in Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide arrows in Firefox */
+input[type="number"] 
+{
+  -moz-appearance: textfield;
+}
+
+
+input[type="text"]{
+  font-size: 17px;
+  padding: 7px;
+}
+
+
+
+

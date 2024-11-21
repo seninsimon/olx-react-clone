@@ -1,0 +1,30 @@
+.categories{
+    height: 40px;
+    width: 1645px;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 3px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.all span{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.cate ul
+{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+}
